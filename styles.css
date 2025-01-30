@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #2A324B; 
+    background-color: #FFF; 
     color: #2A324B;
     text-align: center;
     margin: 0;
@@ -79,7 +79,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #58699D;
+    color: #2A324B;
     font-weight: bold;
 }
 
