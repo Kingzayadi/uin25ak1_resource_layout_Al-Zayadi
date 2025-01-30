@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #E1E5EE; 
+    background-color: #E1E5EE;
     color: #2A324B;
     text-align: center;
     margin: 0;
@@ -11,16 +11,26 @@ header {
     display: none;
 }
 
+main {
+    background-color: #FFF;
+    width: 80%;
+    margin: 60px auto 20px; 
+    padding: 0; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+}
+
 nav {
     display: flex;
-    justify-content: center;
-    background-color: #FFF; 
-    padding: 10px;
-    border-bottom: 4px solid #E1E5EE;
+    justify-content: left; 
+    background-color: #E1E5EE; 
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 0; 
 }
 
 nav button {
-    background-color: #2A324B; 
+    background-color: #2A324B;
     color: #FFF;
     border: none;
     padding: 12px 20px;
@@ -28,23 +38,18 @@ nav button {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0; 
 }
 
 nav button.active {
     background-color: #FFF; 
     color: #2A324B; 
-    border-top: 4px solid #2A324B; 
+    font-weight: bold;
 }
 
-main {
-    background-color: #FFF;
-    width: 80%;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left; 
+#resource-container {
+    padding: 30px; 
+    text-align: left;
 }
 
 h2 {
