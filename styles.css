@@ -39,16 +39,26 @@ nav button.active {
 }
 
 main {
-    background-color: #FFF;
-    width: 80%;
+    background-color: #E1E5EE;
+    width: 60%;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.resource-box {
+    background-color: #E1E5EE;
+    color: #2A324B;
+    width: 60%;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: left;
+}
+
 h2 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
