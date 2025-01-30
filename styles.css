@@ -1,11 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #E1E5EE;
+    background-color: #2A324B; 
     color: #2A324B;
     text-align: center;
     margin: 0;
     padding: 0;
 }
+
 
 header {
     display: none;
