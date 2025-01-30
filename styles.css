@@ -8,12 +8,11 @@ body {
 }
 
 .content-wrapper {
-    background-color: transparent; 
+    background-color: #2A324B; 
     width: 80%;
     margin: 50px auto; 
     border-radius: 10px; 
-    padding-bottom: 20px;
-    padding: 10px 0; 
+    padding-bottom: 20px; 
 }
 
 nav {
@@ -47,13 +46,17 @@ nav button.active {
     font-weight: bold;
 }
 
+
+
 main {
     background-color: #FFF; 
     width: 80%;
-    margin: 20px auto; 
+    margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -10px;
 }
 
 #resource-container {
