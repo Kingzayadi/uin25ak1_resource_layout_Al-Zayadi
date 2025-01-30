@@ -35,6 +35,7 @@ nav button {
 nav button.active {
     background-color: #E1E5EE;
     color: #2A324B;
+    font-weight: bold;
 }
 
 main {
