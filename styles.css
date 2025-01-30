@@ -7,10 +7,12 @@ body {
     padding: 0;
 }
 
-.wrapper {
+.content-wrapper {
+    background-color: #2A324B; 
     width: 80%;
-    margin: 50px auto;
-    position: relative;
+    margin: 50px auto; 
+    border-radius: 10px; 
+    padding-bottom: 20px; 
 }
 
 nav {
@@ -18,45 +20,47 @@ nav {
     justify-content: flex-start;
     background-color: #2A324B;
     padding: 10px;
-    width: 100%;
+    width: 80%; 
+    margin: 0 auto; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    position: relative;
 }
 
 nav button {
     background-color: #2A324B;
     color: #FFF;
     border: none;
-    padding: 15px 20px;
+    padding: 10px 15px;
     margin: 0;
     font-size: 16px;
     cursor: pointer;
-    flex: 1;
-    max-width: 180px;
-    font-weight: bold;
-    transition: background 0.3s ease;
+    flex: 1; 
+    max-width: 150px; 
 }
 
 nav button.active {
-    background-color: #FFF;
+    background-color: #FFF; 
     color: #2A324B;
     font-weight: bold;
-    position: relative;
-    top: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
-.content-container {
-    background-color: #FFF;
-    width: 100%;
+
+main {
+    background-color: #FFF; 
+    width: 80%;
+    margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    top: -5px;
+    top: -10px;
+}
+
+#resource-container {
+    background-color: #FFF; 
+    padding: 30px;
     text-align: left;
+    border-radius: 10px;
 }
 
 h2 {
