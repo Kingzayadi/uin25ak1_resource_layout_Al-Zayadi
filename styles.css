@@ -20,10 +20,12 @@ nav {
     justify-content: flex-start;
     background-color: #2A324B;
     padding: 10px;
-    width: 80%; 
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    position: relative;
+    top: 0; 
 }
 
 nav button {
@@ -34,19 +36,20 @@ nav button {
     margin: 0;
     font-size: 16px;
     cursor: pointer;
-    flex: 1; 
-    max-width: 150px; 
+    flex: 1;
+    max-width: 150px;
+    transition: background 0.3s ease; 
 }
 
 nav button.active {
-    background-color: #FFF; 
+    background-color: #FFF;
     color: #2A324B;
     font-weight: bold;
 }
 
 
 main {
-    background-color: #FFF; 
+    background-color: #FFF;
     width: 80%;
     margin: 0 auto;
     padding: 30px;
