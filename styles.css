@@ -8,59 +8,49 @@ body {
 }
 
 header {
-    background-color: #FFF;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+    display: none;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: #2A324B;
-    padding: 15px;
+    background-color: #FFF; 
+    padding: 10px;
+    border-bottom: 4px solid #E1E5EE;
 }
 
 nav button {
-    background-color: #2A324B;
+    background-color: #2A324B; 
     color: #FFF;
     border: none;
-    min-width: 150px;
-    padding: 12px 18px;
-    margin: 0 8px;
+    padding: 12px 20px;
+    margin: 0 5px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 4px 4px 0 0;
 }
 
 nav button.active {
-    background-color: white; 
-    color: #2A324B;
-    font-weight: bold;
+    background-color: #FFF; 
+    color: #2A324B; 
+    border-top: 4px solid #2A324B; 
 }
 
 main {
-    background-color: #E1E5EE;
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
+    background-color: #FFF;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.resource-box {
-    background-color: #E1E5EE;
-    color: #2A324B;
-    width: 60%;
-    padding: 20px;
-    margin: 40px auto;
-    border-radius: 5px;
-    text-align: left;
+    text-align: left; 
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -71,11 +61,10 @@ p {
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: left;
 }
 
 ul li {
-    margin: 8px 0;
+    margin: 5px 0;
 }
 
 ul li a {
