@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFF; 
+    background-color: #E1E5EE;
     color: #2A324B;
     text-align: center;
     margin: 0;
@@ -13,14 +13,14 @@ header {
 }
 
 main {
-    background-color: #FFF;
+    background-color: #2A324B;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    top: -10px; 
+    top: -10px;
 }
 
 nav {
@@ -51,10 +51,13 @@ nav button.active {
     color: #2A324B;
     font-weight: bold;
 }
+
 #resource-container {
-    padding: 30px; 
+    background-color: #FFF; 
+    padding: 30px;
     margin-top: -10px;
     text-align: left;
+    border-radius: 10px;
 }
 
 h2 {
