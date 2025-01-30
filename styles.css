@@ -7,57 +7,56 @@ body {
     padding: 0;
 }
 
-.content-wrapper {
-    background-color: #2A324B; 
+.wrapper {
     width: 80%;
-    margin: 50px auto; 
-    border-radius: 10px; 
-    padding-bottom: 20px;  
+    margin: 50px auto;
+    position: relative;
 }
 
 nav {
     display: flex;
     justify-content: flex-start;
-    background-color: #58699D; 
+    background-color: #2A324B;
     padding: 10px;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    position: relative;
 }
 
-
 nav button {
-    background-color: #58699D; 
+    background-color: #2A324B;
     color: #FFF;
     border: none;
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin: 0;
     font-size: 16px;
     cursor: pointer;
-    flex: 1; 
-    max-width: 150px; 
+    flex: 1;
+    max-width: 180px;
+    font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 nav button.active {
-    background-color: #FFF; 
+    background-color: #FFF;
     color: #2A324B;
     font-weight: bold;
+    position: relative;
+    top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-main {
-    background-color: #FFF; 
-    width: 90%;
-    margin: 20px auto;
+.content-container {
+    background-color: #FFF;
+    width: 100%;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#resource-container {
-    background-color: #FFF; 
-    padding: 30px;
+    position: relative;
+    top: -5px;
     text-align: left;
-    border-radius: 10px;
 }
 
 h2 {
