@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #E1E5EE;
+    background-color: #FFF;
     color: #2A324B;
     text-align: center;
     margin: 0;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav button {
-    background-color: #58699D;
+    background-color: #2A324B;
     color: #FFF;
     border: none;
     padding: 12px 18px;
