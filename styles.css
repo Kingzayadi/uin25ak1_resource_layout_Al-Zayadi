@@ -41,12 +41,11 @@ nav button {
 }
 
 nav button.active {
-    background-color: #FFF; 
-    color: #2A324B;
+    background-color: #FFF;  
+    color: #2A324B; 
     font-weight: bold;
+    border: 1px solid #2A324B; 
 }
-
-
 
 main {
     background-color: #FFF; 
