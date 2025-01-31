@@ -1,5 +1,6 @@
 const resourceContainer = document.getElementById("resource-container");
 const buttons = document.querySelectorAll("nav button");
+
 function displayResources(category) {
     const filteredResources = resources.filter(resource => resource.category === category);
 
@@ -13,8 +14,15 @@ function displayResources(category) {
             </ul>
         `;
     }
-}
 
+    buttons.forEach(btn => btn.classList.remove("active"));
+
+    buttons.forEach(button => {
+        if (button.getAttribute("data-category") === category) {
+            button.classList.add("active");
+        }
+    });
+}
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
@@ -22,7 +30,6 @@ buttons.forEach(button => {
         displayResources(selectedCategory);
     });
 });
-
 
 document.addEventListener("DOMContentLoaded", () => {
     displayResources("HTML");
